@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color: #04aa6d;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    </style>
+    <title>Form Pendaftaran | ITZ Team</title>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.ccss" />
+  </head>
+  <body class="" style="background-color: #274c77">
+    <!-- navbar -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold fs-4" href="index.html" style="color: #274c77">
+          <img src="img/logo desweb.png" alt="" height="35" class="d-inline-block align-text-top" />
+          ITZ Team
+        </a>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="index.html" class="d-inline-block text-decoration-none" style="color: #274c77">Home</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="intro.html" class="d-inline-block text-decoration-none" style="color: #274c77">Intro</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="about.html" class="d-inline-block text-decoration-none" style="color: #274c77">About us</a></button>
+        <div class="dropdown">
+          <button class="btn px-3" style="background-color: #274c77; color: #e7ecef" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Form</a></li>
+            <li><a class="dropdown-item" href="#menus">Tentang</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- home section awal -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col mt-5 mt-md-0 order-md-first">
+            <div class="home-text text-center py-3">
+              <h2 class="fw-bold mb-5 py-3" style="color: #e7ecef">Form Pendaftaran</h2>
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeDtmXeMuchGEA5xniGzVbjvqzH2sSbFBUMiRyqmC-9w_ZCDQ/viewform?embedded=true"
+                style="background-color: #e7ecef"
+                width="720"
+                height="990"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+                >Memuat…</iframe
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section akhir -->
+
+    <!-- menu section awal -->
+    <section class="menu py-5" id="menus">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5" style="color: #e7ecef">Tentang Tari Saman</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2" style="color: #274c77">
+                <i class="fas fa-history"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Sejarah Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Tari saman diyakini diciptakan oleh seorang ulama Aceh bernama Syekh Saman sekitar abad XIV Masehi. Tari saman berasal dari dataran tinggi Gayo, Aceh Tenggara. Tarian ini dijadikan sebagai media dakwah dan awalnya
+                    dimainkan oleh penari pria.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2" style="color: #274c77">
+                <i class="fas fa-line-chart"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Perkembangan Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Awalnya hanya dilakukan oleh masyarakat untuk hiburan semata. Lalu, kesenian saman berubah menjadi media pengembang agama Islam. Kemudian, saman berfungsi lagi sebagai hiburan atau sebagai tontonan sehingga kegiatan
+                    saman muncul pada acara tertentu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2" style="color: #274c77">
+                <i class="fas fa-lightbulb"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Makna Gerakan Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Umumnya makna gerakan tari saman ini melambangkan nilai-nilai ajaran agama islam. Misalnya gerakan selaku, yang dilakuak penari dengan meletakan satu tangan di dada. Gerakan tersebut memiliki makna kerendahan sebagai
+                    hamba yang taat kepada Allah SWT.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section akhir -->
+
+    <!-- footer awal -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center" style="color: #e7ecef">&copy;2022 ITZ Art Team, Bandung</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer akhir -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
