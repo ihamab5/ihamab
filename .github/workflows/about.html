@@ -1,0 +1,142 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container:hover .image {
+        opacity: 0.3;
+      }
+
+      .container:hover .middle {
+        opacity: 1;
+      }
+
+      .text {
+        background-color: #1864c7;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    </style>
+    <title>About us | ITZ Team</title>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.ccss" />
+  </head>
+  <body class="" style="background-color: #274c77">
+    <!-- navbar -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold fs-4" href="index.html" style="color: #274c77">
+          <img src="img/logo desweb.png" alt="" height="35" class="d-inline-block align-text-top" />
+          ITZ Team
+        </a>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="index.html" class="d-inline-block text-decoration-none" style="color: #274c77">Home</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="intro.html" class="d-inline-block text-decoration-none" style="color: #274c77">Intro</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="about.html" class="d-inline-block text-decoration-none" style="color: #274c77">About us</a></button>
+        <div class="dropdown">
+          <button class="btn px-3" style="background-color: #274c77; color: #e7ecef" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- gallery section awal -->
+    <section class="gallery py-5" id="gallery">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5" style="color: #e7ecef">ITZ Team Member</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row py-5 pb-5 shadow-sm" style="background-color: #e7ecef">
+          <div class="col-md-6 col-lg-4 shadow-sm">
+            <div class="portfolio-item">
+              <div class="container">
+                <img src="img/ilham-v2.png" alt="Ilham" class="image" style="width: 100%" />
+                <div class="middle">
+                  <div class="text" style="background-color: #274c77"><a href="https://instagram.com/ilham_ab__" class="link-light text-decoration-none">Kepoin ♥</a></div>
+                </div>
+                <h3 class="text-capitalize fs-5 my-2" style="color: #274c77">Ilham Abdurahman</h3>
+                <p class="mb-4" style="color: #274c77">Manajer Operasional</p>
+                <p class="mb-4"><a href="https://instagram.com/ilham_ab__" class="text-decoration-none" style="color: #274c77">Selengkapnya</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 shadow-sm">
+            <div class="portfolio-item">
+              <div class="container">
+                <img src="img/taopik.jpg" alt="Taopik" class="image" style="width: 100%" />
+                <div class="middle">
+                  <div class="text" style="background-color: #274c77"><a href="https://instagram.com/taopiik_h" class="link-light text-decoration-none">Kepoin ♥</a></div>
+                </div>
+                <h3 class="text-capitalize fs-5 my-2" style="color: #274c77">Taopik Hidayat</h3>
+                <p class="mb-4" style="color: #274c77">Manajer SDM</p>
+                <p class="mb-4"><a href="https://instagram.com/taopiik_h" class="text-decoration-none" style="color: #274c77">Selengkapnya</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 shadow-sm">
+            <div class="portfolio-item">
+              <div class="container">
+                <img src="img/zahra.jpg" alt="Taopik" class="image" style="width: 100%" />
+                <div class="middle">
+                  <div class="text" style="background-color: #274c77"><a href="https://instagram.com/zahraza.7" class="link-light text-decoration-none">Kepoin ♥</a></div>
+                </div>
+                <h3 class="text-capitalize fs-5 my-2" style="color: #274c77">Zahra</h3>
+                <p class="mb-4" style="color: #274c77">Manajer Keuangan</p>
+                <p class="mb-4"><a href="https://instagram.com/zahraza.7" class="text-decoration-none" style="color: #274c77">Selengkapnya</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery section akhir -->
+
+    <!-- footer awal -->
+    <footer class="footer border-top py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center" style="color: #e7ecef">&copy;2022 ITZ Art Team, Bandung</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer akhir -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

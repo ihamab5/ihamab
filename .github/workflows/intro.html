@@ -1,0 +1,272 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        position: relative;
+        width: 50%;
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container:hover .image {
+        opacity: 0.3;
+      }
+      
+      .container:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+      </style>
+    <title>Pengenalan | ITZ Team</title>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.ccss">
+  </head>
+  <body class="" style="background-color: #274c77;">
+    <!-- navbar -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm" >
+      <div class="container-lg ">
+        <a class="navbar-brand fw-bold fs-4" href="index.html"style="color: #274c77;">
+          <img src="img/logo desweb.png" alt="" height="35" class="d-inline-block align-text-top" />
+          ITZ Team
+        </a>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="index.html" class="d-inline-block text-decoration-none "style="color: #274c77;">Home</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="intro.html" class="d-inline-block text-decoration-none "style="color: #274c77;">Intro</a></button>
+        <button class="navbar-brand mb-auto btn fs-6"><a href="about.html" class="d-inline-block text-decoration-none "style="color: #274c77;">About us</a></button>
+        <div class="dropdown">
+          <button class="btn px-3" style="background-color:#274c77 ;color: #e7ecef;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#menus">About Saman</a></li>
+            <li><a class="dropdown-item" href="#testi">Testimoni</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- home section awal -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="embed-responsive-4by3">
+                <iframe class="embed-responsive m-0" height="320px" width="100%" src="https://www.youtube.com/embed/eXUrJ0xqeuY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0" style="color:#e7ecef;">
+            <div class="home-text text-center">
+              <p class="mb-1" style="color: #a3cef1;">Mari berkenalan dengan </p>
+              <h1 class=" text-uppercase fs-1 fw-bold">TARI SAMAN</h1>
+              <h2 class="fs-4">Salah satu budaya Indonesia yang mendunia</h2>
+              <p class="mx-lg-5" style="color: #a3cef1;">
+                Tari saman sudah diakui UNESCO sebagai salah satu warisan dunia. Tari saman ditetapkan UNESCO sebagai Daftar Representatif Budaya Takbenda Warisan Manusia dalam Sidang ke-6 Komite Antar-Pemerintah untuk Pelindungan Warisan Budaya Tak benda UNESCO di Bali, 24 November 2011.
+              </p>
+              <a href="https://id.wikipedia.org/wiki/Tari_Saman" class="btn px-3 mt-3" style="color: #274c77;background-color: #e7ecef;">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section akhir -->
+
+    <!-- menu section awal -->
+    <section class="menu py-5" id="menus">
+      <div class="container-lg" style="color:#274c77">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5" style="color: #e7ecef;">Tentang Tari Saman</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2">
+                <i class="fas fa-history"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Sejarah Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Tari saman diyakini diciptakan oleh seorang ulama Aceh bernama Syekh Saman sekitar abad XIV Masehi. Tari saman berasal dari dataran tinggi Gayo, Aceh Tenggara. Tarian ini dijadikan sebagai media dakwah dan awalnya dimainkan oleh penari pria.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2">
+                <i class="fas fa-line-chart"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Perkembangan Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Awalnya hanya dilakukan oleh masyarakat  untuk hiburan semata. Lalu,  kesenian saman berubah menjadi media pengembang agama Islam. Kemudian, saman berfungsi lagi sebagai hiburan atau sebagai tontonan sehingga kegiatan saman muncul pada acara tertentu. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 fs-2">
+                <i class="fas fa-lightbulb"></i>
+                <div class="">
+                  <h3 class="fs-5 py-2">Makna Gerakan Tari Saman</h3>
+                  <p class="text-muted fs-6">
+                    Umumnya makna gerakan tari saman ini melambangkan nilai-nilai ajaran agama islam. Misalnya gerakan selaku, yang dilakuak penari dengan meletakan satu tangan di dada. Gerakan tersebut memiliki makna kerendahan sebagai hamba yang taat kepada Allah SWT.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section akhir -->
+
+    <!-- pertanyaan awal -->
+    <section class="freelancer-available py-5" style="background-color: #6096ba;">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Apakah anda tertarik?</p>
+            <h2 class="fs-1 text-white">Klik Daftar disini untuk ikut kelas Tari Saman</h2>
+            <a href="daftar.html" class="btn btn-outline-light">Daftar Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pertanyaan akhir -->
+
+    <!-- testi section awal -->
+    <section class="testi bg-white py-5" id="testi">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5" style="color: #274c77;">Testimoni Belajar Tari Saman</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active" style="background-color: #274c77;" aria-current="true" aria-label="Slide 1"></li>
+                  <li class="active" style="background-color: #274c77;" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                  <li class="active" style="background-color: #274c77;" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                </ol>
+            <div class="carousel-inner p-1">
+              <!-- testi item awal -->
+              <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/ilham-logo.png" class="img-thumbnail rounded-circle" alt="" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Ilham</h3>
+                    <p class="text-muted m-0">Bandung</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Pelatihannya luar biasa, pelatihnya juga pada kompeten. plus plus plus deh buat kelas ini 😎👍
+                </p>
+                <div class="rating" style="color: #274c77;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- testi item akhir -->
+              <!-- testi item awal -->
+              <div class="testi-item carousel-item  bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/taopik.png" class="img-thumbnail rounded-circle" alt="" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Taopik</h3>
+                    <p class="text-muted m-0">Jogja</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Jauh jauh dari jogja, ga nyesel ikut kelas ini. Sampe Jago aku diajarin, Top Markotop 😎👌
+                </p>
+                <div class="rating" style="color: #274c77;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- testi item akhir -->
+              <!-- testi item awal -->
+              <div class="testi-item carousel-item  bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/zahra.png" class="img-thumbnail rounded-circle" alt="" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Zahra</h3>
+                    <p class="text-muted m-0">Makassar</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Pelatihnya profesional, materinya mudah dipahami, dibimbing sampe bisa 😊👍
+                </p>
+                <div class="rating" style="color: #274c77;">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- testi item akhir -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testi section akhir -->
+
+    <!-- footer awal -->
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy;2022 ITZ Art Team, Bandung </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer akhir -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
